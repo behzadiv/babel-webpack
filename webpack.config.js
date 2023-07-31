@@ -30,4 +30,7 @@ module.exports = {
     port: 5000,
     open: true,
   },
+  optimization: {
+    minimize: true,
+  },
 };
