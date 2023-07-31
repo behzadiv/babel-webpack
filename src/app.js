@@ -1,4 +1,8 @@
-const getName = ()=>{
-    console.log("ali");
+import "../style/main.css";
+
+class App {
+  getName = () => {
+    console.log("name");
+  };
 }
-getName()
+new App().getName();
