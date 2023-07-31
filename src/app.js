@@ -1,3 +1,4 @@
 const getName = ()=>{
-    console.log("behzad");
+    console.log("ali");
 }
+getName()
