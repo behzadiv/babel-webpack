@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "babel": "babel src/app.js -o public/bundle.js --presets @babel/preset-env --watch"
+    "babel": "babel src/app.js -o public/bundle.js --presets @babel/preset-env --watch",
+    "build": "webpack"
   },
   "author": "behzad",
   "license": "ISC",
